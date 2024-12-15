@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PeakPerformance</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="voice_recognition">Activar reconocimiento de voz</string>
+    <string-array name="idiomas">
+        <item>Español</item>
+        <item>Inglés</item>
+        <item>Francés</item>
+    </string-array>
+
+</resources>

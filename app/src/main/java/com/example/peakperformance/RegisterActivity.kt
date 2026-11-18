@@ -89,7 +89,7 @@ class RegisterActivity : AppCompatActivity() {
 
         val valores = ContentValues().apply {
             put(COLUMNA_NOMBRE_USUARIO, nombreUsuario)
-            put(COLUMNA_CONTRASENA, contrasena)
+            put(COLUMNA_CONTRASENA, PasswordHasher.hash(contrasena))
             put(COLUMNA_EMAIL, email)
         }
 
